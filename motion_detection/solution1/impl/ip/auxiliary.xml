@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="abs_diff" xd:componentRef="abs_diff" xd:initiationInterval="2" xd:clockPeriod="10.000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:arg xd:name="y-&gt;data" xd:originalName="y" xd:direction="out" xd:interfaceRef="y" xd:busTypeRef="axis" xd:dataWidth="32"/>
+  <xd:arg xd:name="y-&gt;keep" xd:originalName="y" xd:direction="out" xd:interfaceRef="y" xd:busTypeRef="axis" xd:dataWidth="4"/>
+  <xd:arg xd:name="y-&gt;strb" xd:originalName="y" xd:direction="out" xd:interfaceRef="y" xd:busTypeRef="axis" xd:dataWidth="4"/>
+  <xd:arg xd:name="y-&gt;user" xd:originalName="y" xd:direction="out" xd:interfaceRef="y" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="y-&gt;last" xd:originalName="y" xd:direction="out" xd:interfaceRef="y" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="y-&gt;id" xd:originalName="y" xd:direction="out" xd:interfaceRef="y" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="y-&gt;dest" xd:originalName="y" xd:direction="out" xd:interfaceRef="y" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="c[]" xd:originalName="c" xd:direction="inout" xd:interfaceRef="m_axi_c" xd:busTypeRef="aximm" xd:arraySize="100" xd:dataWidth="32" xd:bufferDirection="in"/>
+  <xd:arg xd:name="img1-&gt;data" xd:originalName="img1" xd:direction="in" xd:interfaceRef="img1" xd:busTypeRef="axis" xd:dataWidth="32"/>
+  <xd:arg xd:name="img1-&gt;keep" xd:originalName="img1" xd:direction="in" xd:interfaceRef="img1" xd:busTypeRef="axis" xd:dataWidth="4"/>
+  <xd:arg xd:name="img1-&gt;strb" xd:originalName="img1" xd:direction="in" xd:interfaceRef="img1" xd:busTypeRef="axis" xd:dataWidth="4"/>
+  <xd:arg xd:name="img1-&gt;user" xd:originalName="img1" xd:direction="in" xd:interfaceRef="img1" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="img1-&gt;last" xd:originalName="img1" xd:direction="in" xd:interfaceRef="img1" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="img1-&gt;id" xd:originalName="img1" xd:direction="in" xd:interfaceRef="img1" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="img1-&gt;dest" xd:originalName="img1" xd:direction="in" xd:interfaceRef="img1" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="img2-&gt;data" xd:originalName="img2" xd:direction="in" xd:interfaceRef="img2" xd:busTypeRef="axis" xd:dataWidth="32"/>
+  <xd:arg xd:name="img2-&gt;keep" xd:originalName="img2" xd:direction="in" xd:interfaceRef="img2" xd:busTypeRef="axis" xd:dataWidth="4"/>
+  <xd:arg xd:name="img2-&gt;strb" xd:originalName="img2" xd:direction="in" xd:interfaceRef="img2" xd:busTypeRef="axis" xd:dataWidth="4"/>
+  <xd:arg xd:name="img2-&gt;user" xd:originalName="img2" xd:direction="in" xd:interfaceRef="img2" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="img2-&gt;last" xd:originalName="img2" xd:direction="in" xd:interfaceRef="img2" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="img2-&gt;id" xd:originalName="img2" xd:direction="in" xd:interfaceRef="img2" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="img2-&gt;dest" xd:originalName="img2" xd:direction="in" xd:interfaceRef="img2" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:latencyEstimates xd:best-case="1" xd:worst-case="1" xd:average-case="1"/>
+  <xd:resourceEstimates xd:LUT="172" xd:FF="2" xd:BRAM="0" xd:DSP="0"/>
+</xd:acceleratorMap>
